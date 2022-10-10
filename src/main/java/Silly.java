@@ -119,7 +119,7 @@ public class Silly implements Comparable<Silly>{
         y.countStatic();
         x.countStatic();
         x.countStatic();
-        int[] expected_values = {5, 5, 6, 7};
+        int[] expected_values = {0,0,1,2};
 
         System.out.println("The countStatic calls will return " + Arrays.toString(expected_values));
     }
